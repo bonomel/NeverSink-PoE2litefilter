@@ -199,10 +199,10 @@ PlayEffect Cyan Temp
 # Scroll of Wisdom High Level Hiding
 #--------------------------
 
-Hide
-BaseType "Scroll of Wisdom"
-AreaLevel >= 65
-Rarity <= Magic
+# Hide
+# BaseType "Scroll of Wisdom"
+# AreaLevel >= 65
+# Rarity <= Magic
 
 #--------------------------
 # Socketables and Special Character Equipment
