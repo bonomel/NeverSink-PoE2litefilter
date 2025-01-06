@@ -190,10 +190,19 @@ PlayEffect Cyan
 PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
-Show 
+Show
+BaseType == "Stone Charm" "Golden Charm" "Thawing Charm" "Amethyst Charm" "Silver Charm"
+ItemLevel >= 79
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+PlayEffect Cyan
+SetFontSize 36
+MinimapIcon 1 Cyan Diamond
+PlayAlertSound 3 300
+
+Show
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
-PlayEffect Cyan Temp
 
 #--------------------------
 # Scroll of Wisdom High Level Hiding
